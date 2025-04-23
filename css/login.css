@@ -1,0 +1,245 @@
+/* Login and Signup Page Styles */
+
+.login-page,
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.login-image {
+  display: none;
+  width: 50%;
+  background-color: #fff3e1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 28rem;
+}
+
+.login-hero-image {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+
+.login-form-container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-logo {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+  color: var(--color-text-light);
+}
+
+.login-form,
+.signup-form {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.login-input,
+.form-input {
+  width: 100%;
+  padding: 0.75rem 0;
+  border: none;
+  border-bottom: 1px solid var(--color-gray-300);
+  background-color: transparent;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-input:focus,
+.form-input:focus {
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 0;
+  top: 0.75rem;
+  background: none;
+  border: none;
+  color: var(--color-gray-400);
+  cursor: pointer;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.forgot-password {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+}
+
+.forgot-password:hover {
+  color: var(--color-primary);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.signup-link,
+.login-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.signup-link a,
+.login-link a {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.signup-link a:hover,
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Signup page specific styles */
+.signup-form-container {
+  max-width: 28rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: var(--color-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-form-container::before,
+.signup-form-container::after {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  background-image: radial-gradient(var(--color-primary) 1px, transparent 1px);
+  background-size: 10px 10px;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.signup-form-container::before {
+  top: 0;
+  right: 0;
+}
+
+.signup-form-container::after {
+  bottom: 0;
+  left: 0;
+}
+
+.signup-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.signup-title {
+  font-size: 1.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-subtitle {
+  color: var(--color-text-light);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-checkbox input {
+  margin-top: 0.25rem;
+}
+
+.form-checkbox label {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.form-checkbox a {
+  color: var(--color-primary);
+}
+
+.form-checkbox a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .login-image {
+    display: flex;
+  }
+
+  .login-form-container {
+    width: 50%;
+  }
+}

@@ -1,30 +1,79 @@
-# Website integration and fixes
+# Travloving - Travel Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Travloving is a modern travel website built with Next.js and TailwindCSS. It features a responsive design, animations with Framer Motion, and state management with Context API.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/akhir3482-gmailcoms-projects/v0-website-integration-and-fixes)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ai8eEVJrVkm)
+## Features
 
-## Overview
+- User authentication (login/signup)
+- Destination browsing
+- Blog with detailed articles
+- Booking system
+- Responsive design for all devices
+- Animations and transitions
+- Mobile-first approach
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tech Stack
+
+- Next.js 14
+- TailwindCSS
+- Framer Motion for animations
+- Context API for state management
+- TypeScript
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/yourusername/travloving-website.git
+cd travloving-website
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+# or
+yarn install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
+npm run dev
+# or
+yarn dev
+\`\`\`
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Project Structure
+
+- `/app` - Next.js app router pages
+- `/components` - Reusable UI components
+- `/context` - Context API for state management
+- `/public` - Static assets like images
+- `/styles` - Global styles
 
 ## Deployment
 
-Your project is live at:
+This project can be easily deployed on Vercel:
 
-**[https://vercel.com/akhir3482-gmailcoms-projects/v0-website-integration-and-fixes](https://vercel.com/akhir3482-gmailcoms-projects/v0-website-integration-and-fixes)**
+\`\`\`bash
+npm run build
+# or
+yarn build
+\`\`\`
 
-## Build your app
+## HTML/CSS Version
 
-Continue building your app on:
+For the HTML/CSS version of this project, please visit the separate repository:
+[Travloving HTML/CSS Version](https://github.com/yourusername/travloving-html)
 
-**[https://v0.dev/chat/projects/ai8eEVJrVkm](https://v0.dev/chat/projects/ai8eEVJrVkm)**
+## License
 
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+This project is licensed under the MIT License - see the LICENSE file for details.
