@@ -1,79 +1,55 @@
-# Travloving - Travel Website
+# Travel Website Project
 
-Travloving is a modern travel website built with Next.js and TailwindCSS. It features a responsive design, animations with Framer Motion, and state management with Context API.
+This repository contains a travel website built in two different versions:
+1. **Pure HTML/CSS** with vanilla JavaScript
 
-## Features
+The project implements a visually rich, responsive, and user-friendly travel website based on a provided Figma design.
 
-- User authentication (login/signup)
-- Destination browsing
-- Blog with detailed articles
-- Booking system
-- Responsive design for all devices
-- Animations and transitions
-- Mobile-first approach
+## 📝 Project Overview
 
-## Tech Stack
+### Pages Implemented:
+- **Landing Page**: Hero section, popular destinations, tour categories, testimonials, newsletter subscription
+- **Destinations Listing**: Grid layout with filters and sorting functionality
+- **Destination Detail**: Full details for selected destinations with gallery and booking options
 
-- Next.js 14
-- TailwindCSS
-- Framer Motion for animations
-- Context API for state management
-- TypeScript
+## 🛠️ Technologies Used
 
-## Getting Started
+### HTML/CSS Version:
+- **HTML**: Semantic HTML5
+- **CSS**: Custom CSS with variables and responsive design
+- **JavaScript**: Vanilla JS for interactivity
+- **Animations**: CSS transitions and animations
+- **Responsive Design**: Media queries for different screen sizes
 
-### Prerequisites
+## 🚀 Setup Instructions
 
-- Node.js 18+ 
-- npm or yarn
+### HTML/CSS Version:
 
-### Installation
+1. Navigate to the HTML version folder:
+   ```bash
+   cd travel-website/html-version
+   ```
 
-1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/travloving-website.git
-cd travloving-website
-\`\`\`
+2. Simply open the `index.html` file in your browser:
+   - You can use a local server like Live Server extension in VS Code
+   - Or open the file directly in your browser
 
-2. Install dependencies:
-\`\`\`bash
-npm install
-# or
-yarn install
-\`\`\`
+## 📱 Responsive Design
 
-3. Run the development server:
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-\`\`\`
+Both versions are fully responsive and work across:
+- Desktop screens
+- Tablets
+- Mobile devices
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+The site uses a mobile-first approach to ensure optimal experience on all devices.
 
-## Project Structure
+## ✨ Features
 
-- `/app` - Next.js app router pages
-- `/components` - Reusable UI components
-- `/context` - Context API for state management
-- `/public` - Static assets like images
-- `/styles` - Global styles
+- **Responsive Navigation**: Collapsible menu on smaller screens
+- **Image Optimization**: Lazy loading for improved performance
+- **Animations**: Smooth transitions and hover effects
+- **Interactive Elements**: Search functionality, filters, and sorting
+- **Form Validation**: Basic validation for booking and newsletter forms
 
-## Deployment
-
-This project can be easily deployed on Vercel:
-
-\`\`\`bash
-npm run build
-# or
-yarn build
-\`\`\`
-
-## HTML/CSS Version
-
-For the HTML/CSS version of this project, please visit the separate repository:
-[Travloving HTML/CSS Version](https://github.com/yourusername/travloving-html)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🌐 Live Demo
+- HTML/CSS Version: https://v0-website-integration-git-fc480f-akhir3482-gmailcoms-projects.vercel.app
